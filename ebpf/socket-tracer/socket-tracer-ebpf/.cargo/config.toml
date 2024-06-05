@@ -1,7 +1,6 @@
 [build]
 target-dir = "../target"
 target = "bpfel-unknown-none"
-rustflags = "-C link-arg=--log-level -C link-arg=trace"
 
 [unstable]
 build-std = ["core"]

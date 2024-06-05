@@ -1,0 +1,15 @@
+[package]
+name = "socket-tracer-common"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = []
+user = ["aya"]
+
+[dependencies]
+aya = { version = "0.12", optional = true }
+aya-ebpf = { git = "https://github.com/aya-rs/aya" }
+
+[lib]
+path = "src/lib.rs"

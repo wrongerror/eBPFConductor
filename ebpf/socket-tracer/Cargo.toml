@@ -1,0 +1,4 @@
+[workspace]
+members = ["xtask", "socket-tracer", "socket-tracer-common"]
+
+resolver = "2"
